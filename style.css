@@ -1,0 +1,86 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-image: url("scary-pumpking.gif");
+}
+
+h1{
+  margin-top: 5vmin;
+  background-color: orange;
+  font-size: 5vmin;
+}
+
+h2{
+  color: orange;
+  margin: 5vmin 0 10vmin 0;
+  font-size: 5vmin;
+}
+
+p{
+  margin: 10vmin 10vmin 5vmin 10vmin;
+  font-size: 2.5vmin;
+  color: white;
+}
+
+.maincard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  /*height: 150vh;*/
+  width: 100%;
+}
+.images{
+  width: 100%;
+}
+
+.highlight{
+  color:
+}
+
+.time p{
+  text-align: center;
+  margin-top: 0;
+  font-size: 3vmin;
+}
+
+.card{
+  text-align: center;
+}
+
+.card-header{
+  font-size: 3vmin;
+}
+
+.card-body{
+  color: black;
+  padding-top: 5vmin;
+  padding-bottom: 5vmin;
+}
+
+.card-title{
+  font-size: 8vmin;
+}
+
+.card-body h3,.card-body h6,.card-body a{
+  margin-top: 3vmin;
+}
+
+.footer{
+  margin-top: 10vmin;
+  text-align: center;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+/*@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up)*/
+/*@media (min-width: 768px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+/*@media (min-width: 1200px) {}
